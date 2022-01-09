@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+
     <title>Adicionar Produto</title>
 </head>
-<body>
-    <div>
-        <p>Veste Bem</p>
-    </div>
-    
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
 
-    
+<body>
+    <header class="header">
+        <div>
+            <img src="img/logo.jpg" width="150px" alt="logo">
+        </div>
+
+        <div class="navegation">
+
+            <a href="index.html">Inicio</a>
+            <a href="estoque.html"> Estoque</a>
+            <a href="colaboradores.html">Colaboradores</a>
+        </div>
+    </header>
+
     <h2>Adicionar Produto</h2>
     <form action="">
         <div>
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
         </div>
-        
+
         <div>
             <label for="descricao">Descrição do produto: </label>
             <!-- Adicione o id apropriado para o input abaixo -->
             <input type="text" id="descricao" name="descrição">
         </div>
-        
+
         <div>
             <label for="preco">Preço (em R$): </label>
             <!-- Adicione o id apropriado e o type para receber números abaixo -->
             <input type="text" id="preco" name="preço">
         </div>
-        
+
         <div>
             <!-- Preencha as propriedades necessárias para os elementos abaixo -->
             <label>Quantidade disponível: </label>
@@ -50,6 +55,17 @@
         </div>
 
     </form>
-
+    <section class="footer">
+        <div id="bottom-container">
+            <a href="https://github.com/OtaciliaSouza" target="_blank" rel="noopener noreferrer">
+                <img class="contact-icon" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="180px" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/Otacilia-Souza/" target="_blank" rel="noopener noreferrer">
+                <img class="contact-icon" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="200px" alt="LinkedIn">
+            </a>
+            <h2 class="referencia-name"> 2022 Otacilia Souza</h2>
+        </div>
+    </section>
 </body>
+
 </html>

@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/planodefundoor-688.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    padding-top: 35px;
+    -webkit-box-shadow: 0 30px 40px 0 rgb(196, 53, 209);
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/topo2.jpg);
+    font-size: 40px;
+}
+
+.navegation {
+    padding-top: 35px;
+    -webkit-box-shadow: 0 10px 20px 0 rgb(17, 35, 192);
+    color: black;
+}
+
+ .navegation li a {
+    float: left;
+    border-left: 10px solid #2372a7;
+    color: black;
+} 
+
+#superior {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 50px;
+    width: 100vw;
+}
+
+#about-loja {
+    padding: 30px;
+    width: 45%;
+    position: relative;
+    float: left;
+    border-width: 2px;
+    height: 700px;
+    font-size: 40px;
+    display: flex;
+}
+
+#about-loja2 {
+    padding: 30px;
+    width: 45%;
+    font-size: 40px;
+    position: relative;
+    float: left;
+    border-width: 2px;
+    height: auto;
+}
+
+.footer {
+    position: relative;
+    background-image: url('img/topo2.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.loja {
+    min-height: 900px;
+}
+
+.footer,
+#bottom-container,
+#img {
+    text-align: center;
+    background-image: url(img/topo2.jpg)
